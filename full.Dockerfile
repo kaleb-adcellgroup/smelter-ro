@@ -27,7 +27,7 @@ RUN source ~/.cargo/env && cargo build --release
 # Runtime image
 FROM ubuntu:noble-20250716
 
-LABEL org.opencontainers.image.source https://github.com/software-mansion/smelter
+LABEL org.opencontainers.image.source=https://github.com/software-mansion/smelter
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
