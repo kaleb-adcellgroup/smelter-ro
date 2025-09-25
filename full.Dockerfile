@@ -1,5 +1,5 @@
 # Builder image
-FROM ubuntu:noble-20250716 as builder
+FROM ubuntu:noble-20250716 AS builder
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
